@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //Twilio auth
 var auth_token = process.env.TWILIO_TOKEN;
-
+console.log(process.env.TWILIO_TOKEN);
 //Mongodb
 var mongoose = require('mongoose');
 mongoose.connect(process.env.MONGOSOUP_URL);
