@@ -10,6 +10,10 @@
     "type": "git",
     "url": "https://github.com/thatmatt/tv_vote.git"
   },
+  "dependencies":{
+      "express": "4.11.2",
+      "twilio": "1.11.0"
+  },
   "author": "Matt Thompson",
   "license": "ISC",
   "bugs": {
