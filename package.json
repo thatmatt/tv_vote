@@ -1,0 +1,19 @@
+{
+  "name": "tvvote",
+  "version": "0.0.0",
+  "description": "Vote for your favorite show or movie and control your DVR",
+  "main": "twilio_sms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thatmatt/tv_vote.git"
+  },
+  "author": "Matt Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatmatt/tv_vote/issues"
+  },
+  "homepage": "https://github.com/thatmatt/tv_vote"
+}
