@@ -12,7 +12,9 @@
   },
   "dependencies":{
       "express": "4.11.2",
-      "twilio": "1.11.0"
+      "twilio": "1.11.0",
+      "body-parser": "1.11.0"
+
   },
   "author": "Matt Thompson",
   "license": "ISC",
