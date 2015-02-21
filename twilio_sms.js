@@ -42,7 +42,7 @@ function getResponse() {
 // Create a route to respond to a call
 app.post('/sms', function(req, res) {
     //Validate that this request really came from Twilio...
-    if (twilio.validateExpressRequest(req, auth_token)) {
+    if (twilio.validateExpressRequest(req, process.env.TWILIO_TOKEN)) {
         var resp = new twilio.TwimlResponse();
         var fromNumber = req.body.From;
         var myNumber = req.body.To;
