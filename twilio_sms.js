@@ -3,7 +3,7 @@ var twilio = require('twilio'),
 // Create express app with middleware to parse POST body
 var app = express();
 var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //Twilio auth
 var auth_token = process.env.TWILIO_TOKEN;
